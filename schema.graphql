@@ -1,0 +1,27 @@
+type Query {
+  getUsers: [User!]!
+  user: User!
+}
+
+type User implements Node {
+  """The ID of an object"""
+  id: ID!
+  name: String
+  active_plan: String
+  email: String
+  created_at: String
+  customer_id: String
+  session_id: String
+}
+
+"""An object with an ID"""
+interface Node {
+  """The id of the object."""
+  id: ID!
+}
+
+type Mutation {
+  createUser(name: String): User!
+  updatePlan(id: String): User!
+  changePlan(price: String, plan: String): User!
+}

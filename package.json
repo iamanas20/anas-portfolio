@@ -3,16 +3,9 @@
     "[module-name]": false
   },
   "dependencies": {
-    "dotenv-webpack": "^7.0.3",
-    "evergreen-ui": "^6.5.2",
     "history": "^4.9.0",
-    "hotkeys-js": "^3.8.7",
-    "masonry-layout": "^4.2.2",
-    "moment": "^2.29.1",
-    "qs": "^6.10.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-relay": "^12.0.0",
     "react-router-dom": "^5.3.0",
     "webpack": "^5.61.0",
     "webpack-cli": "^4.9.1",
@@ -20,8 +13,7 @@
   },
   "scripts": {
     "watch": "webpack serve --mode development",
-    "build": "webpack --mode production",
-    "relay": "relay-compiler --src ./assets --schema schema.graphql --language typescript"
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",

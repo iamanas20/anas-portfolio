@@ -45,7 +45,7 @@ function Content(props) {
 			</div>
 			<div className="card lf">
 				<a href="https://lightfunnels.com" />
-				<img className="lfbg1" src={require('../assets/imgs/Frame 1339 (16).svg')} />
+				<img className="lfbg1" src={require('../assets/imgs/Frame 1339 (1).png')} />
 			</div>
 			<div className="card map">
 				<a href="https://www.google.com/maps/@31.6356391,-8.0121846,13.28z" target="_blank" />

@@ -3,15 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-	watch: true,
 	watchOptions: {
     ignored: /node_modules/,
-  },
-  entry: path.join(__dirname, "index.js"),
-  output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'index.js',
-    publicPath: '/'
+    poll: true
   },
   resolve: {
 	  extensions: ['*', '.js', '.jsx', '.ts', '.tsx']
@@ -59,14 +53,30 @@ module.exports = {
         test: /\.(scss|css)$/,
         use: ['style-loader', 'css-loader', 'sass-loader'],
       },
+      {
+        test: /\.html$/,
+        exclude: [/node_modules/, require.resolve('./index.html')],
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]'
+          },
+        },
+      },
     ]
   },
-  devServer: {
-    historyApiFallback: true,
+  entry: path.join(__dirname, "index.js"),
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'index.js',
+    publicPath: '/'
   },
+  // devServer: {
+  //   historyApiFallback: true,
+  // },
   plugins: [
   	new HtmlWebpackPlugin({
-      template: path.join(__dirname, "index.html"),
+      template: path.join(__dirname, "/index.html"),
     }),
 		new MiniCssExtractPlugin(),
   ]

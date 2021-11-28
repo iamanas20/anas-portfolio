@@ -119,3 +119,23 @@ body {
   position: relative;
   z-index: 6;
 }
+
+.navbar{
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	padding: 50px 60px;
+	img {
+		height: 24px;
+		cursor: pointer;
+	}
+	a {
+		font: 500 unquote('16px/1') "Circular";
+		text-decoration: none;
+		color: black;
+	}
+}
+
+p {
+	line-height: 1.6;
+}

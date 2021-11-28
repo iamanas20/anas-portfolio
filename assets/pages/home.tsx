@@ -10,20 +10,10 @@ import {
 export function Home() {
 	return (
 		<Fragment>
-			<Navbar />
 			<div className="homePage">
 				<Content />
 			</div>
 		</Fragment>
-	)
-}
-
-function Navbar(props){
-	return (
-		<div className="navbar">
-			<img className="logo" src={require('../assets/imgs/anas.svg')}/>
-			<a href="mailto:anaslatique@gmail.com" target="_blank" children="Contact"/>
-		</div>
 	)
 }
 
@@ -60,9 +50,9 @@ function Content(props) {
 					Doing awesome stuff at Lightfunnels
 				</h4>
 				<p>
-					First hire at Lightfunnels, a crazy big e-commerce platform that helps you create sales funnels. I am the React Ninja of the team and proud to be working with such a talented and passionate group of people on crazy solutions that will impact so many folks out there.
+					First hire at Lightfunnels, a crazy big e-commerce platform that helps you create sales funnels. I am a software engineer with a talented and passionate group of people making on crazy solutions that will impact so many folks out there.
 				</p>
-				<a href="/priciples" className="readMore">
+				<a href="/blog/lf" className="readMore">
 					Read More
 				</a>
 			</div>
@@ -75,9 +65,20 @@ function Content(props) {
 					What I'm most passionate about?
 				</h4>
 				<p>
-					There are some things that I'm most passionate and excited about, I believe that these things...
+					There are some things that I'm most passionate and excited about, I believe that...
 				</p>
-				<a href="/priciples" className="readMore">
+				<a href="/blog/passion" className="readMore">
+					Read More
+				</a>
+			</div>
+			<div className="card princ">
+				<h4 >
+					My statement on the Metaverse
+				</h4>
+				<p>
+					This is the most world-changing and extreme usecase for blockchain technologies...
+				</p>
+				<a href="/blog/meta" className="readMore">
 					Read More
 				</a>
 			</div>

@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/anas/Documents/Github/anas-portfolio/package.json: Unexpected token } in JSON at position 383
+  SyntaxError: /Users/anas/Documents/Github/anas-portfolio/package.json: Unexpected token } in JSON at position 450
       at JSON.parse (<anonymous>)
       at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
       at Generator.next (<anonymous>)
@@ -37,7 +37,7 @@ npm manifest:
     },
     "scripts": {
       "watch": "webpack serve --mode development",
-      "build": "webpack --mode production",
+      "build": "node ./create-env.js && webpack -p --progress --mode production --env.ENVIRONMENT=production",
     },
     "devDependencies": {
       "@babel/core": "^7.16.0",

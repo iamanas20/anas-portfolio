@@ -9,21 +9,6 @@
 
 $w: Min(300px, 100%);
 
-.navbar{
-	display: flex;
-	align-items:center;
-	justify-content: space-between;
-	padding: 50px 60px;
-	img {
-		height: 24px;
-	}
-	a {
-		font: 500 unquote('16px/1') "Circular";
-		text-decoration: none;
-		color: black;
-	}
-}
-
 .contentGrid{
 	display: grid;
   grid-template-columns: repeat(4, 1fr);

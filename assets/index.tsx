@@ -1,8 +1,8 @@
 import React, { Suspense } from 'react';
 import './app.scss';
+import history from './data/history';
 
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -10,6 +10,7 @@ import {
 
 import {
 	Home,
+	BlogPost,
 } from './pages';
 
 // this is where you could have different layers of your app, navbars,
@@ -18,12 +19,21 @@ export function Container(){
 	return (
 		<div className="container">
 			<Suspense fallback={"loading..."}>
-				<Router>
-	        <Switch>
-	          <Route path="/" component={Home} />
-	        </Switch>
-		    </Router>
+				<Navbar />
+        <Switch>
+          <Route path="/blog/:id" component={BlogPost} />
+          <Route path="/" component={Home} />
+        </Switch>
 			</Suspense>
+		</div>
+	)
+}
+
+function Navbar(props){
+	return (
+		<div className="navbar">
+			<img className="logo" onClick={() => history.push('/')} src={require('./assets/imgs/anas.svg')}/>
+			<a href="mailto:anaslatique@gmail.com" target="_blank" children="Contact"/>
 		</div>
 	)
 }

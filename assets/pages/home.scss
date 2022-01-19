@@ -19,7 +19,7 @@ $w: Min(300px, 100%);
 .contentGrid{
 	display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 300px);
+  grid-template-rows: repeat(2, 300px);
   grid-gap: 20px;
   grid-auto-flow: dense;
 }

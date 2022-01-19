@@ -133,6 +133,13 @@ body {
 		font: 500 unquote('16px/1') "Circular";
 		text-decoration: none;
 		color: black;
+    transition: 200;
+    &:not(:last-child){
+      margin-right: 14px;
+    }
+    &:hover{
+      color: #1376fd;
+    }
 	}
 }
 

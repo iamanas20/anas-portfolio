@@ -39,4 +39,26 @@ Now Lightfunnels stands as one of the greatest and most feature-packed e-commerc
 
 		`
 	},
+	{
+		id: 'amsterdam-eagle',
+		text: `
+# From Marrakech to Amsterdam.
+
+I fell in love with the Netherlands. For me, it is hands down the best country on the planet, everything, the people, the culture, the laws, safety, healthcare, motives... etc. Backing off a bit to the beginning of 21, I had the idea to stay in Morocco and grow as much as I possibly can with Lightfunnels, we were cruising on new features and we truly have built one of the most powerful e-commerce tools on the market right now, I never thought of leaving, I would have never left if it wasn't for a better country. I started thinking of leaving when I needed our government for multiple services I won't get into in this post, that's when I started considering moving to the Netherlands.
+
+The Netherlands is one of the top countries in so many categories, whenever you search for "Top countries in ___" you most likely will find the below-sea-level-land up there among the top 10. The culture, the cities, the services, and the people are really great. I've never been there, one family member was there and he said it is the best country he went to. I've made research and it is truly a top country, I wanna be a part of it, work hard, contribute, and give everything expecting nothing in return. I truly love Amsterdam haha.
+
+Ultimately, when I think about it, it's not about it being the best country in the world, I'm biased, I know. But, I'd want to be a part of a country that actually is transparent and tax money is used wisely through infrastructure, healthcare, safety and more. The Netherlands is country where that's the case. I can't fix Morocco so I decided to move.
+
+I've applied to Eagle Eye Networks, an American company that has offices all around the world. It is the #1 cloud surveillance solution and scaling pretty fast. Sounded attractive to me and that's why I applied. Passed the interview process and got an offer. Signed it. And it is the type of organization I will keep growing at and work on amazing solutions with an awseome team.
+
+Leaving Lightfunnels wasn't an easy decision, as the first one to join back in 2018, I knew I was in a position where I'd grow fast and I just loved the team to death, I've learned so much from them. But, thinking about the bigger picture, I can't say no to the Netherlands. It was a hard decision but I made it. It was about Morocco and not Lightfunnels, if it wasn't for countries, I would have never left.
+
+I love Amsterdam, the city, the vibe, the culture, the people, the canals and architecture, the fact that it's in the center of Europe, you have Scandinavian countries to the North East, the UK and Iceland to the North West, France and Spain to the South West, Switzerland, Italy, and Luxembourg to the South, Germany to the East, etc... And so many other advantages that Amsterdam has, it all has made me consider making it a permanent home for me and my future family.
+
+Looking forward to growing with Eagle Eye and be fully immersed into the Dutch culture and language!
+
+Thanks for reading!
+		`
+	},
 ]

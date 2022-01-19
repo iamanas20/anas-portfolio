@@ -5,6 +5,13 @@
 	display: grid;
 	gap: 24px;
 	padding-bottom: 80px;
+
+	h4 {
+		font: 500 unquote('24px/1.4') "Circular";
+		color: black;
+		margin: 0;
+		margin-bottom: 14px;
+	}
 }
 
 $w: Min(300px, 100%);
@@ -52,12 +59,6 @@ $w: Min(300px, 100%);
 	padding: 40px 30px 60px;
 
 	position: relative;
-	h4 {
-		font: 500 unquote('24px/1.4') "Circular";
-		color: black;
-		margin: 0;
-		margin-bottom: 14px;
-	}
 	p{
 		font: 400 16px/28px "Circular";
     color: rgba(0, 0, 0, 0.7);
@@ -139,6 +140,53 @@ $w: Min(300px, 100%);
 .lf{
 	grid-column: 4;
 	grid-row: 1 / 3;
+	padding: 20px 30px;
+	overflow: auto;
+	background: #1c1c1c;
+	position: relative;
+	scroll-behavior: smooth;
+
+	h4 {
+		text-align: center;
+		color: #f1f1f1;
+	}
+	h5 {
+		font: 500 unquote('18px/1') "Circular";
+		color: #f2f2f2;
+		text-decoration: underline;
+		margin-bottom: 14px;
+	}
+
+	.fixedContainer{
+		position: sticky;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		bottom: 0;
+	}
+	.scroll{
+		height: 36px;
+		background: white;
+		border-radius: 36px;
+		padding: 0 20px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		font: 400 unquote('15px/1') "Circular";
+		color: #e5e5e5;
+		li{
+			&:not(:last-child){
+				margin-bottom: 8px;
+			}
+		}
+	}
 }
 
 .lf2{
@@ -150,6 +198,15 @@ $w: Min(300px, 100%);
 		// top: 50%;
 		// transform: translateY(-50%);
 	}
+	// .lfBanner{
+	// 	position: absolute;
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	bottom: 0;
+	// 	background: black;
+	// 	font: 500 unquote('24px/1') "Circular";
+	// 	color: white;
+	// }
 }
 
 .external{
@@ -199,3 +256,5 @@ $w: Min(300px, 100%);
 		}
 	}
 }
+
+// Yassir mentioned I am a fan of Navy SEALs hahaha. Fun fact, I am a big fan of reading/listening to books and I did read some books about team building, stress management, preparation, and motivation, these are topics I was and am still very excited about. A couple of those books were written by SEALs like David Goggins, and Jocko Willink.

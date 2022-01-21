@@ -34,7 +34,7 @@ function Navbar(props){
 		<div className="navbar">
 			<img className="logo" onClick={() => history.push('/')} src={require('./assets/imgs/anas.svg')}/>
 			<div>
-				<a href="/" children="Blog (soon)"/>
+				<a href="#" children="Blog (soon)"/>
 				<a href="mailto:anaslatique@gmail.com" target="_blank" children="Contact"/>
 			</div>
 		</div>

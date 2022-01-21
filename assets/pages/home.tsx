@@ -24,7 +24,7 @@ function Content(props) {
 			<div className="intro card">
 				<img src={require('../assets/imgs/anas1.png')}/>
 				<p>
-					I'm <span>Anas</span>, a software engineer from Morocco. I'm interested in React, GraphQL, Relay, Node, TypeScript, AWS. I love books, startups, blockchain, NFTs, and podcasts.
+					I'm <span>Anas</span>, a software engineer from Morocco. I'm interested in React, GraphQL, Relay, Node, TypeScript, AWS. I love books, articles, space exploration, startups, blockchains, NFTs, and podcasts.
 				</p>
 			</div>
 			<div className="card gh">
@@ -94,9 +94,9 @@ function Content(props) {
 			<div className="card lf2">
 				<a href="https://lightfunnels.com" />
 				<img src={require('../assets/imgs/Frame 1339 (5).svg')} />
-				{/*<div className="lfBanner">
-					Lightfunnels
-				</div>*/}
+				<div className="lfBanner">
+					Sr. Software Engineer at Lightfunnels
+				</div>
 			</div>
 			{/*<div className="card lfTime">
 				<h4 >

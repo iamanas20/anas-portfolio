@@ -198,15 +198,19 @@ $w: Min(300px, 100%);
 		// top: 50%;
 		// transform: translateY(-50%);
 	}
-	// .lfBanner{
-	// 	position: absolute;
-	// 	width: 100%;
-	// 	height: 100%;
-	// 	bottom: 0;
-	// 	background: black;
-	// 	font: 500 unquote('24px/1') "Circular";
-	// 	color: white;
-	// }
+	.lfBanner{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		bottom: 0;
+		background: black;
+		font: 500 unquote('24px/1') "Circular";
+		color: white;
+		background: linear-gradient(180deg, rgba(0, 0, 0, 0) 7.29%, rgba(0, 0, 0, 0.85) 100%);
+		display: flex;
+		align-items: flex-end;
+		padding: 0 0 24px 24px;
+	}
 }
 
 .external{

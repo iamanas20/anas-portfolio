@@ -1,5 +1,6 @@
 import React from 'react';
 import posts from '../data/cms';
+
 import {
 	NavLink
 } from 'react-router-dom';
@@ -24,8 +25,8 @@ export function Blog(){
 				{
 					blogPosts.map(
 						p => (
-							<NavLink to={`/blog/${p.id}`}>
-								<div className="postItem" key={p.id}>
+							<NavLink to={`/blog/${p.id}`} key={p.id}>
+								<div className="postItem">
 									<h3>
 										{p.title}
 									</h3>

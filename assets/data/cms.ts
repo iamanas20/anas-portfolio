@@ -51,7 +51,7 @@ Now Lightfunnels stands as one of the greatest and most feature-packed e-commerc
 # Why I decided to move to the Netherlands
 ![Amsterdam](https://images.unsplash.com/photo-1605101100278-5d1deb2b6498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80)
 
-> If I have seen further it is by standing on the sholders of Giants.
+> If I have seen further it is by standing on the shoulders of Giants.
 
 It's been about one year since one family member who visited the Netherlands for a few days have told me about it, how everything is amazing. At that time I didn't pay attention I wanted to spend many more years in Morocco working with amazing people on phenomenal solutions.
 

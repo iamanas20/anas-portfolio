@@ -5,12 +5,14 @@ import history from './data/history';
 import {
   Switch,
   Route,
-  Link
+  Link,
+  NavLink,
 } from "react-router-dom";
 
 import {
 	Home,
 	BlogPost,
+	Blog,
 } from './pages';
 
 // this is where you could have different layers of your app, navbars,
@@ -22,6 +24,7 @@ export function Container(){
 				<Navbar />
         <Switch>
           <Route path="/blog/:id" component={BlogPost} />
+          <Route path="/blog" component={Blog} />
           <Route path="/" component={Home} />
         </Switch>
 			</Suspense>
@@ -32,9 +35,11 @@ export function Container(){
 function Navbar(props){
 	return (
 		<div className="navbar">
-			<img className="logo" onClick={() => history.push('/')} src={require('./assets/imgs/anas.svg')}/>
+			<NavLink to="/">
+				<img className="logo" src={require('./assets/imgs/anas.svg')}/>
+			</NavLink>
 			<div>
-				<a href="#" children="Blog (soon)"/>
+				<NavLink to="/blog" activeClassName="selected">Blog</NavLink>
 				<a href="mailto:anaslatique@gmail.com" target="_blank" children="Contact"/>
 			</div>
 		</div>

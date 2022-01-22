@@ -1,5 +1,5 @@
 import React from 'react';
-import {posts} from '../data/cms';
+import posts from '../data/cms';
 import './blog.scss';
 import ReactMarkdown from 'react-markdown'
 
@@ -8,8 +8,9 @@ export function BlogPost(props){
 		() => posts.find(p => p.id === props.match.params.id)!,
 		[props.match.params.id]
 	);
+
 	return(
-		<div className="blogsPage">
+		<div className="blogsPage blog">
 			<ReactMarkdown>{blog.text}</ReactMarkdown>
 		</div>
 	)

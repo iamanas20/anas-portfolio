@@ -16,15 +16,23 @@ export function Home() {
 					<div className="intro card">
 						<img src={require('../assets/imgs/anas1.png')}/>
 						<p>
-							I'm <span>Anas</span>, a software engineer from Morocco. I'm interested in React, GraphQL, Relay, Node, TypeScript, AWS. I love books, articles, space exploration, startups, blockchains, NFTs, and podcasts.
+							I'm <span>Anas</span>, a software engineer. Interested in React, GraphQL, Relay, Node, TypeScript, AWS. I love books, articles, space, startups, blockchains, NFTs, and podcasts.
 						</p>
 					</div>
-					<div className="card gh">
-						<a href="https://github.com/iamanas20" target="_blank" />
-						<img className="ghimg" src={require('../assets/imgs/Group 348.svg')} />
-						<div className="external">
-							<img src={require('../assets/imgs/icons8-external-64 (1).png')} />
-						</div>
+					<div className="card princ">
+						<h4 >
+							Current book I'm listening to 🎧
+						</h4>
+						<p>
+							Sapiens: A Brief History of Humankind – by Yuval Noah Harari
+						</p>
+						<a
+							href="https://www.google.com/search?gs_ssp=eJzj4tbP1TcwNDIzTS42MWD0Yi9OLMhMzSsGAEHVBl4&q=sapiens&oq=sapie&aqs=chrome.1.69i57j46i67i433j46i199i291i433i512j0i433i512l3j46i512j69i61.9430j0j1&sourceid=chrome&ie=UTF-8"
+							className="readMore"
+							target="_blank"
+						>
+							Learn more
+						</a>
 					</div>
 					<div
 						className="card lf"
@@ -80,14 +88,28 @@ export function Home() {
 						}
 					</div>
 					<div className="card map">
-						<a href="https://www.google.com/maps/@31.6356391,-8.0121846,13.28z" target="_blank" />
+						<a href="https://www.google.com/maps/@52.3790264,4.869623,13z" target="_blank" />
 						<img className="mapimg" src={require('../assets/imgs/Frame 1340.png')} />
 					</div>
 					<div className="card lf2">
-						<a href="https://lightfunnels.com" />
+						<a href="https://een.com" target="_blank" />
+						<img src={require('../assets/imgs/Frame-ee.svg')} />
+						<div className="lfBanner">
+							Web Developer at Eagle Eye Networks
+						</div>
+					</div>
+					<div className="card lf3">
+						<a href="https://lightfunnels.com" target="_blank" />
 						<img src={require('../assets/imgs/Frame 1339 (5).svg')} />
 						<div className="lfBanner">
-							Sr. Software Engineer at Lightfunnels
+							Fmr. Software Engineer at Lightfunnels
+						</div>
+					</div>
+					<div className="card gh">
+						<a href="https://github.com/iamanas20" target="_blank" />
+						<img className="ghimg" src={require('../assets/imgs/Group 348.svg')} />
+						<div className="external">
+							<img src={require('../assets/imgs/icons8-external-64 (1).png')} />
 						</div>
 					</div>
 					{/*<div className="card lfTime">

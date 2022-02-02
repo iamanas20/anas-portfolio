@@ -57,7 +57,7 @@ Now Lightfunnels stands as one of the greatest and most feature-packed e-commerc
 		description: 'Thinking about the biggest decision of my life and the next commitments.',
 		released: true,
 		text: `
-# Why I decided to move to the Netherlands
+# I decided to move to the Netherlands
 ![Amsterdam](https://images.unsplash.com/photo-1605101100278-5d1deb2b6498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80)
 
 > If I have seen further it is by standing on the shoulders of Giants.
@@ -74,6 +74,28 @@ Leaving Morocco and my work wasn't an easy decision, but I had to make it. I mad
 
 I am ready for this new journey, I'm ready to live everyday with the choices I made.
 
+		`
+	},
+	{
+		id: 'leaving-lf',
+		title: 'My time at Lightfunnels has finished',
+		description: 'It\'s the end of a chapter, but not the book... Thank you Lightfunnels.',
+		released: true,
+		text: `
+# My time at Lightfunnels has finished
+![Developer](https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+
+> Life is really simple, we just insist on making it complicated.
+
+It's the end of a chapter, but not the book... Thank you to Lightfunnels. I've had an incredible 3 years being a part of such an amazing team whom I can consider my life long friends and family. They gave me the platform to grow and show what I can learn and do, forever grateful.
+
+I've had some incredible moments together with the ups and we've grown so much from the downs. I want to wish them all a very good luck for the future and tremendous growth in their careers and projects. They work really hard and are the best of the best in what they do.
+
+I want to thank the people who are closest to me, my family, for helping me and guiding me through this transition. Take care of your people and they'll take care of you.
+
+Keep your head in the game, and always be humbled to learn and grow. Once you take control of your life and time it all becomes relatevely easy.
+
+I am moving to Amsterdam for a new journey, a new chapter in my book. Anything you do, you should do it with integrity and pride. Anas out! ❤️
 		`
 	},
 ] as const 

@@ -2,6 +2,8 @@ import React from 'react';
 import posts from '../data/cms';
 import './blog.scss';
 import ReactMarkdown from 'react-markdown'
+import { Link } from 'react-router-dom'
+import { BiArrowBack } from "react-icons/bi";
 
 export function BlogPost(props){
 	const blog = React.useMemo(
@@ -11,6 +13,12 @@ export function BlogPost(props){
 
 	return(
 		<div className="blogsPage blog">
+			<Link to="/blog" className="backLink">
+				<BiArrowBack size={18} />
+				<span>
+					Back to posts
+				</span>
+			</Link>
 			<ReactMarkdown>{blog.text}</ReactMarkdown>
 		</div>
 	)

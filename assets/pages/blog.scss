@@ -48,6 +48,17 @@
 }
 
 .blog {
+	.backLink{
+		display: flex;
+		align-items: center;
+		color: $blue-1;
+		text-decoration: none;
+		margin-bottom: 18px;
+		span {
+			font: 500 unquote('16px/1') $font-2;
+			margin-left: 6px;
+		}
+	}
 	img {
 		width: 100%;
 		border-radius: 10px;
